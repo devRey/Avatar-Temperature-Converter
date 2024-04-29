@@ -89,12 +89,20 @@ input {
         display: flex;
         flex-direction: column;
         background-image: url(Pergaminho/PergaminhoMobile.png);
-        padding: 135px 147px;
+        padding: 126px 102px;
         gap: 40px;
     }
 
     #conversor .cf label {
         font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    #conversor {
+        padding: 126px 50px;
+        background-image: url(Pergaminho/pergaminhoMobileMenor.png);
+
     }
 }
 
