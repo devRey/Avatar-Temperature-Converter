@@ -64,6 +64,20 @@ input {
     justify-content: center;
 }
 
+@media screen and (max-width: 1900px) {
+    #conversor {
+        width: auto;
+        background-image: url(Pergaminho/PergaminhoNotebook.png);
+        height: auto;
+        box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+
 
 
 @media screen and (max-width: 1500px) {
@@ -76,7 +90,7 @@ input {
 
     #conversor {
         width: auto;
-        background-image: url(Pergaminho/pergaminhoResponsivo.png);
+        background-image: url(Pergaminho/PergaminhoNotebook.png);
         height: auto;
         
         box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
@@ -100,7 +114,7 @@ input {
 
     #conversor {
         
-        background-image: url(Pergaminho/pergaminhoResponsivo.png);
+        background-image: url(Pergaminho/PergaminhoNotebook.png);
         width: auto;
         height: auto;
         box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
