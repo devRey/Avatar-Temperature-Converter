@@ -34,7 +34,7 @@ body {
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    
+    z-index: 1;
 
 }
 
@@ -63,6 +63,9 @@ input {
     align-items: center;
     justify-content: center;
 }
+
+
+
 
 
 @media screen and (max-width: 1550px) {
